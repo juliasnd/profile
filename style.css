@@ -1,0 +1,82 @@
+/*background-color, font-family, color, font-size and line-height*/ 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+h1 {
+	color: rgba(150, 200, 450, 1.0);
+	font-family: "Helvetica Neue";
+	font-size: 40px;
+	line-height: 30px;
+}
+
+h2 {
+	color:rgba(150, 200, 450, 1.0);
+	font-family: "Helvetica Neue";
+	font-size: 30px ;
+	line-height: 20px;
+}
+
+a{
+	color: black;
+	text-decoration:  none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-weight: 300; /* if you want the light version */
+  background-image: url(https://bali.com/wp-content/uploads/2020/11/IMG_20190202_133553-2048x1536.jpg);
+  background-size: cover;
+
+}
+
+button {
+	font-family: "Helvetica Neue";
+	background-color: rgba(150, 200, 450, 0.7);
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px rgba(150, 200, 450, 1.0);
+	width: 250px;
+	height: 30px;
+	border-width: 0.5px;
+	font-weight: 300;
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid darkgray;
+ 
+}
+
+.img-circle > img{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 0px;
+  text-align: center;
+  display: inline-block;
+}
+
+ul {
+	list-style: none;
+  padding: 0px;
+}
